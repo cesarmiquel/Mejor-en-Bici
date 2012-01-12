@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
+		<title>Mejor en Bici</title>
+
+		<link rel="stylesheet" href="assets/js/jquery.mobile/jquery.mobile-1.0.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="assets/css/master.css" type="text/css" media="screen" />
+		<!-- <script src="phonegap.js" type="text/javascript" charset="utf-8"></script> -->
+		<script src="assets/js/jquery-1.7.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/jquery.mobile/jquery.mobile-1.0.js" type="text/javascript" charset="utf-8"></script>
+		<!-- Backbone Framework -->
+		<script src="assets/js/underscore.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/json2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/backbone.js" type="text/javascript" charset="utf-8"></script>
+		<!-- Our JS App -->
+		<script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	  
+
+		<!-- Home page -->
+		<div data-role="page" class="type-interior" id="home">
+
+			<div data-role="header" data-theme="a">
+				<h1>Estado actual</h1>
+				<a href="../../" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+			</div><!-- /header -->
+
+			<div data-role="content">
+				<div class="content-primary">
+			    <img src="assets/img/puente-pto-madero.jpg" style="min-width: 100%; margin: -15px; padding-bottom: 26px"/>
+					<ul data-role="listview" data-filter="false">
+						<li><a href="#detail">ADUANA<span class="ui-li-count">9</span></a></li>
+						<li><a href="#detail">TRIBUNALES<span class="ui-li-count">20</span></a></li>
+						<li><a href="#detail">PLAZA LEZAMA<span class="ui-li-count">9</span></a></li>
+						<li><a href="#detail">RURAL<span class="ui-li-count">19</span></a></li>
+						<li><a href="#detail">ADUANA<span class="ui-li-count">9</span></a></li>
+						<li><a href="#detail">TRIBUNALES<span class="ui-li-count">20</span></a></li>
+						<li><a href="#detail">PLAZA LEZAMA<span class="ui-li-count">9</span></a></li>
+						<li><a href="#detail">RURAL<span class="ui-li-count">19</span></a></li>
+						<li><a href="#detail">ADUANA<span class="ui-li-count">9</span></a></li>
+						<li><a href="#detail">TRIBUNALES<span class="ui-li-count">20</span></a></li>
+						<li><a href="#detail">PLAZA LEZAMA<span class="ui-li-count">9</span></a></li>
+						<li><a href="#detail">RURAL<span class="ui-li-count">19</span></a></li>
+						<li><a href="#detail">ADUANA<span class="ui-li-count">9</span></a></li>
+						<li><a href="#detail">TRIBUNALES<span class="ui-li-count">20</span></a></li>
+						<li><a href="#detail">PLAZA LEZAMA<span class="ui-li-count">9</span></a></li>
+						<li><a href="#detail">RURAL<span class="ui-li-count">19</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div data-role="footer">		
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a href="#" data-icon="check">Cerca</a></li>
+						<li><a href="#" data-icon="star">Favoritas</a></li>
+						<li><a href="#" data-icon="grid">Todas</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div><!-- /footer -->
+
+		</div>
+
+		<!-- Detail page -->
+		<div data-role="page" id="detail" data-content-theme="c">
+			<div data-role="header" data-theme="a">
+				<h1>PLAZA LEZAMA</h1>
+				<a href="#home" data-icon="back" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Volver</a>
+			</div><!-- /header -->
+
+			<div data-role="content">
+			  <img src="assets/img/maps/mapa_parque_lezama.png" style="min-width: 100%; border: 3px solid white; border-radius: 4px; margin: -5px"/>
+				<p><strong>Direccion: </strong>Av. Brasil 1134<br/>
+				<strong>Cantidad de bicicletas: </strong>9<br/>
+				<strong>Lineas colectivo: </strong>10, 29, 64, 152, 188, 191<br/>
+				<strong>Lineas subte: </strong><span style="color: white; border-radius: 3px; padding: 3px; font-size: 14px; background: #090;">C</span> Estaci&oacute;n Lezama</p>
+			</div>
+		</div>
+
+		<script>
+			
+		</script>
+
+	</body>
+</html>
+<!-- vim: se ts=2 sw=2 ai: -->
