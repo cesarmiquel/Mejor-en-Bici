@@ -66,18 +66,26 @@
 		<!-- Detail page -->
 		<div data-role="page" id="detail" data-content-theme="c">
 			<div data-role="header" data-theme="a">
+				<a href="#home" data-icon="arrow-l" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">Volver</a>
 				<h1>PLAZA LEZAMA</h1>
-				<a href="#home" data-icon="back" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Volver</a>
 			</div><!-- /header -->
 
 			<div data-role="content">
-			  <img src="assets/img/maps/mapa_parque_lezama.png" style="min-width: 100%; border: 3px solid white; border-radius: 4px; margin: -5px"/>
-				<p><strong>Direccion: </strong>Av. Brasil 1134<br/>
-				<strong>Cantidad de bicicletas: </strong>9<br/>
-				<strong>Lineas colectivo: </strong>10, 29, 64, 152, 188, 191<br/>
-				<strong>Lineas subte: </strong><span style="color: white; border-radius: 3px; padding: 3px; font-size: 14px; background: #090;">C</span> Estaci&oacute;n Lezama</p>
+				<div style="box-shadow: 0 0 10px 0px #000 inset;padding: 8px 10px 3px 8px; 10px;border-radius: 5px;z-index: 100;background: url(assets/img/maps/mapa_parque_lezama.png) no-repeat;url(;width: 279px;height: 166px;margin-left: auto;margin-right: auto;"></div>
+				<div style="width:300px; margin-left: auto; margin-right:auto">
+					<h3>Av. Brasil 1134</h3>
+					<p>
+					<img src="assets/img/bici.png" alt="Cantidad de bicis:" style="float: left; margin-right: 10px;"/>9 <span style="color: #999">disponibles</span><br/><hr/>
+					<img src="assets/img/bus.png" alt="Lineas de colectivo:" style="float: left; margin-right: 10px;"/>10, 29, 64, 152, 188, 191<br/><hr/>
+					<img src="assets/img/subte.png" alt="Lineas de subte:" style="float: left; margin-right: 10px;"/><span style="color: white; border-radius: 3px; padding: 3px; font-size: 14px; background: #090;">C</span> Estaci&oacute;n Lezama</p>
+				</div>
+			</div>
+
+			<div data-role="footer">		
+				<p style="color: #999; font-size: 9px; padding: 5px;">Mapa provisto x Google Maps - Map data &copy; 2012 Inav / Geosistemas SRL</p>
 			</div>
 		</div>
+
 
 		<script>
 			
